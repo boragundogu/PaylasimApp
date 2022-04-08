@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093FF4E227F741D0008ADFAB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093FF4E127F741D0008ADFAB /* FeedViewController.swift */; };
+		093FF4E427F741EA008ADFAB /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093FF4E327F741EA008ADFAB /* UploadViewController.swift */; };
+		093FF4E727F741FF008ADFAB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093FF4E627F741FF008ADFAB /* SettingsViewController.swift */; };
+		0981B51B27FF15FC0073E5F9 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0981B51A27FF15FC0073E5F9 /* FeedCell.swift */; };
+		09E5654327F7153D00EB263D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5654227F7153D00EB263D /* AppDelegate.swift */; };
+		09E5654527F7153D00EB263D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5654427F7153D00EB263D /* SceneDelegate.swift */; };
+		09E5654727F7153D00EB263D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5654627F7153D00EB263D /* ViewController.swift */; };
+		09E5654A27F7153D00EB263D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E5654827F7153D00EB263D /* Main.storyboard */; };
+		09E5654C27F7153E00EB263D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E5654B27F7153E00EB263D /* Assets.xcassets */; };
+		09E5654F27F7153E00EB263D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E5654D27F7153E00EB263D /* LaunchScreen.storyboard */; };
+		09E5655727F716C600EB263D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09E5655627F716C600EB263D /* GoogleService-Info.plist */; };
+		550ECCED9420C28E6041030A /* Pods_FotografPaylasmaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90865A6AFA115F62E23C09FD /* Pods_FotografPaylasmaApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		093FF4E127F741D0008ADFAB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		093FF4E327F741EA008ADFAB /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		093FF4E627F741FF008ADFAB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0981B51A27FF15FC0073E5F9 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		09E5653F27F7153D00EB263D /* FotografPaylasmaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FotografPaylasmaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E5654227F7153D00EB263D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09E5654427F7153D00EB263D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		09E5654627F7153D00EB263D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09E5654927F7153D00EB263D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09E5654B27F7153E00EB263D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09E5654E27F7153E00EB263D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09E5655027F7153E00EB263D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E5655627F716C600EB263D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		44C9CA25D7CB77B1E8A86FBC /* Pods-FotografPaylasmaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FotografPaylasmaApp.debug.xcconfig"; path = "Target Support Files/Pods-FotografPaylasmaApp/Pods-FotografPaylasmaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		59054EC579565B0800D7E821 /* Pods-FotografPaylasmaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FotografPaylasmaApp.release.xcconfig"; path = "Target Support Files/Pods-FotografPaylasmaApp/Pods-FotografPaylasmaApp.release.xcconfig"; sourceTree = "<group>"; };
+		90865A6AFA115F62E23C09FD /* Pods_FotografPaylasmaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FotografPaylasmaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09E5653C27F7153D00EB263D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550ECCED9420C28E6041030A /* Pods_FotografPaylasmaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09E5653627F7153D00EB263D = {
+			isa = PBXGroup;
+			children = (
+				09E5654127F7153D00EB263D /* FotografPaylasmaApp */,
+				09E5654027F7153D00EB263D /* Products */,
+				643455F599D03BA5889A9DF4 /* Pods */,
+				2FD7DD349D08A856EFC615E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09E5654027F7153D00EB263D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09E5653F27F7153D00EB263D /* FotografPaylasmaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09E5654127F7153D00EB263D /* FotografPaylasmaApp */ = {
+			isa = PBXGroup;
+			children = (
+				09E5654227F7153D00EB263D /* AppDelegate.swift */,
+				09E5654427F7153D00EB263D /* SceneDelegate.swift */,
+				09E5654627F7153D00EB263D /* ViewController.swift */,
+				093FF4E127F741D0008ADFAB /* FeedViewController.swift */,
+				0981B51A27FF15FC0073E5F9 /* FeedCell.swift */,
+				093FF4E327F741EA008ADFAB /* UploadViewController.swift */,
+				093FF4E627F741FF008ADFAB /* SettingsViewController.swift */,
+				09E5654827F7153D00EB263D /* Main.storyboard */,
+				09E5654B27F7153E00EB263D /* Assets.xcassets */,
+				09E5654D27F7153E00EB263D /* LaunchScreen.storyboard */,
+				09E5655027F7153E00EB263D /* Info.plist */,
+				09E5655627F716C600EB263D /* GoogleService-Info.plist */,
+			);
+			path = FotografPaylasmaApp;
+			sourceTree = "<group>";
+		};
+		2FD7DD349D08A856EFC615E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90865A6AFA115F62E23C09FD /* Pods_FotografPaylasmaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		643455F599D03BA5889A9DF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44C9CA25D7CB77B1E8A86FBC /* Pods-FotografPaylasmaApp.debug.xcconfig */,
+				59054EC579565B0800D7E821 /* Pods-FotografPaylasmaApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09E5653E27F7153D00EB263D /* FotografPaylasmaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E5655327F7153E00EB263D /* Build configuration list for PBXNativeTarget "FotografPaylasmaApp" */;
+			buildPhases = (
+				601EC3C73E87AD9083882768 /* [CP] Check Pods Manifest.lock */,
+				09E5653B27F7153D00EB263D /* Sources */,
+				09E5653C27F7153D00EB263D /* Frameworks */,
+				09E5653D27F7153D00EB263D /* Resources */,
+				5FA7513341A27EE20EF6C8D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FotografPaylasmaApp;
+			productName = FotografPaylasmaApp;
+			productReference = 09E5653F27F7153D00EB263D /* FotografPaylasmaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09E5653727F7153D00EB263D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					09E5653E27F7153D00EB263D = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 09E5653A27F7153D00EB263D /* Build configuration list for PBXProject "FotografPaylasmaApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09E5653627F7153D00EB263D;
+			productRefGroup = 09E5654027F7153D00EB263D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09E5653E27F7153D00EB263D /* FotografPaylasmaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09E5653D27F7153D00EB263D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E5654F27F7153E00EB263D /* LaunchScreen.storyboard in Resources */,
+				09E5655727F716C600EB263D /* GoogleService-Info.plist in Resources */,
+				09E5654C27F7153E00EB263D /* Assets.xcassets in Resources */,
+				09E5654A27F7153D00EB263D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FA7513341A27EE20EF6C8D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FotografPaylasmaApp/Pods-FotografPaylasmaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FotografPaylasmaApp/Pods-FotografPaylasmaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FotografPaylasmaApp/Pods-FotografPaylasmaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		601EC3C73E87AD9083882768 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FotografPaylasmaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E5653B27F7153D00EB263D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0981B51B27FF15FC0073E5F9 /* FeedCell.swift in Sources */,
+				09E5654727F7153D00EB263D /* ViewController.swift in Sources */,
+				093FF4E427F741EA008ADFAB /* UploadViewController.swift in Sources */,
+				09E5654327F7153D00EB263D /* AppDelegate.swift in Sources */,
+				093FF4E227F741D0008ADFAB /* FeedViewController.swift in Sources */,
+				09E5654527F7153D00EB263D /* SceneDelegate.swift in Sources */,
+				093FF4E727F741FF008ADFAB /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09E5654827F7153D00EB263D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E5654927F7153D00EB263D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09E5654D27F7153E00EB263D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E5654E27F7153E00EB263D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09E5655127F7153E00EB263D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09E5655227F7153E00EB263D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09E5655427F7153E00EB263D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C9CA25D7CB77B1E8A86FBC /* Pods-FotografPaylasmaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC248RB7DQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FotografPaylasmaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boragundogu.FotografPaylasmaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09E5655527F7153E00EB263D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59054EC579565B0800D7E821 /* Pods-FotografPaylasmaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC248RB7DQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FotografPaylasmaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boragundogu.FotografPaylasmaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E5653A27F7153D00EB263D /* Build configuration list for PBXProject "FotografPaylasmaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E5655127F7153E00EB263D /* Debug */,
+				09E5655227F7153E00EB263D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09E5655327F7153E00EB263D /* Build configuration list for PBXNativeTarget "FotografPaylasmaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E5655427F7153E00EB263D /* Debug */,
+				09E5655527F7153E00EB263D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09E5653727F7153D00EB263D /* Project object */;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>106433583319-h5eigj5lui3vt9kglv1d0f1anrv2hvo6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.106433583319-h5eigj5lui3vt9kglv1d0f1anrv2hvo6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDEcQC3GAe63uvRHIO1IDUXC-Aef5kdRSQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>106433583319</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.boragundogu.FotografPaylasmaApp</string>
+	<key>PROJECT_ID</key>
+	<string>fotografpaylasmaapp-ab7d1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fotografpaylasmaapp-ab7d1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:106433583319:ios:8b9e815a96f93bc660b892</string>
+</dict>
+</plist>
